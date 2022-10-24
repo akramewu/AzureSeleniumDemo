@@ -55,6 +55,7 @@ public class FreshWorksTest {
 
 	}
 
+/*	
 	@Test(priority = 1)
 	public void freshWorkslogoTest() {
 		boolean flag = false;
@@ -76,6 +77,7 @@ public class FreshWorksTest {
 		assertEquals(footerLinksList.size(), 35);
 	}
 
+*/
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
